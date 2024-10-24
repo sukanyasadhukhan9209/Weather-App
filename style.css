@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  background: #f0f4f8;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#bgvideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  filter: brightness(100%);
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.search-bar {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cccccc82;
+  outline: none;
+  width: 70%;
+  max-width: 400px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 10px;
+  background: #ffffff7a;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+
+.card,
+.card2,
+.card3 {
+  background: rgba(255, 255, 255, 0.778);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.topcard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.card2 {
+  flex: 1;
+  min-width: 300px;
+  margin: 10px;
+}
+
+.bottomcard {
+  margin-top: 20px;
+}
+
+.forecast {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  text-align: center;
+  margin: 10px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+h1,
+h2,
+h5 {
+  margin: 10px 0;
+}
